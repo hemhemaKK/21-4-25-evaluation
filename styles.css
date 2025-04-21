@@ -1,0 +1,109 @@
+*{
+    font-family:"Gill Sans Extrabold", sans-serif;
+}
+
+nav li{
+    padding: 10px;
+    display: inline;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(12, 7, 76);
+    border-radius: 7px;
+    margin: 50px;
+    box-shadow: 0 4px 10px rgba(248, 248, 248, 0.9); 
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(66, 25, 127);
+}
+
+.profile{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+.profile img{
+    margin: 50px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(248, 248, 248, 0.9); 
+}
+
+.profile h1{
+    color: wheat;
+    padding: 10px;
+    margin-left: 100px;
+}
+.profile h2{
+    color: rgb(35, 183, 247);
+    padding: 10px;
+    margin-left: 100px;
+}
+.profile h3{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.project{
+    position: absolute;
+}
+.text-project{
+    position: absolute;
+    top:5%;
+    color: white;
+    left: 200px;
+}
+.cards{
+    position: absolute;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(248, 248, 248, 0.9); 
+    padding: 50px;
+    width: 300%;
+    gap:100px
+}
+
+.btn_pro{
+    background-color: rgb(137, 247, 255);
+    font-weight: bold;
+    border-radius: 7px;
+    padding:10px
+}
+.btn_pro:hover{
+    background-color: rgb(30, 212, 51);
+}
+
+.project_table{
+    background-color: black;
+    height: 200px;
+}
+
+form{
+margin-top: 70%;
+background-color: rgb(114, 118, 119);
+color:white;
+height:400px;
+}
+
+form fieldset, h1{
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.btn{
+    margin-left: 40px;
+    background-color: rgb(137, 247, 255);
+    font-weight: bold;
+    border-radius: 7px;
+    padding:10px
+}
+
+.btn:hover{
+    background-color: rgb(30, 212, 51);
+}
